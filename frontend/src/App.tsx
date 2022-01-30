@@ -109,7 +109,7 @@ function App ()
     <div className="App">
 
       <section className="header">
-        <span className="site-name">spider.bin</span>
+        <span className="site-name">hash.bin</span>
         < CustomUrlInput customUrlError={ customUrlError } customUrl={ customUrl } setCustomUrl={ setCustomUrl } setCustomUrlError={ setCustomUrlError } />
 
         <div className="btn-wrapper">
