@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.post("/", (req, res) => {
+app.get("/", (req, res) => {
     res.send("Hello World!");
 });
 
@@ -25,9 +25,9 @@ app.use(getCode);
 app.use(editCode);
 
 app.get("*", (req, res) => {
-    res.render("404", {
+    res.send("404", {
         title: "404",
-        name: "Sasta-DelDog",
+        name: "HashBin",
         errorMessage: "Page not found.",
     });
 });
