@@ -56,21 +56,16 @@ function App ()
 
     switch ( status )
     {
-      case 201:
+      case 200:
         setSaveIcon( SaveIcons.saveSuccessIcon );
         setSaveState( SaveStates.success );
         window.location.pathname = customUrl;
         break;
 
-
-      case 401:
-      case 404:
+      default:
         setSaveIcon( SaveIcons.saveFailureIcon );
         setSaveState( SaveStates.failure );
         setCustomUrlError( true );
-        break;
-
-      default:
         break;
     }
 
@@ -145,7 +140,7 @@ function App ()
         </div>
       </section>
 
-      <Main binData={ binData } language={ language } setBinData={ setBinData} />
+      <Main binData={ binData } language={ language } setBinData={ setBinData } />
 
       <Footer />
 
