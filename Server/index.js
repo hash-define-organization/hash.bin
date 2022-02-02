@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const scheduleExpiryJobs = require("./services/expiry");
 
-const takeCode = require("./routes/takecode");
+const saveCode = require("./routes/savecode");
 const getCode = require("./routes/getcode");
 const editCode = require("./routes/editcode");
 require("./db");
@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
     res.send("Hello World!");
 });
 
-app.use(takeCode);
+app.use(saveCode);
 app.use(getCode);
 app.use(editCode);
 
