@@ -7,7 +7,7 @@ router.post('/api/v1/editcode', async (req, res) => {
     // code = Buffer.from(code).toString('base64');
 
     if (code === undefined) {
-        return res.status(404).json({ error: "No code provided" });
+        return res.status(400).json({ error: "No code provided" });
     }
 
     language == undefined ? (language = "text") : (language = language);
@@ -19,7 +19,7 @@ router.post('/api/v1/editcode', async (req, res) => {
             doc.code = code;
             doc.language = language;   
             await doc.save();
-            res.status(201).send("Successfully updated document");
+            res.status(200).send("Successfully updated document");
         }
         catch(err){
             console.log(err);

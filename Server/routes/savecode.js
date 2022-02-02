@@ -3,7 +3,7 @@ const ms = require('ms');
 const Doc = require("../models/doc");
 const { nanoid } = require("nanoid");
 
-router.post("/api/v1/takeCode", async (req, res) => {
+router.post("/api/v1/saveCode", async (req, res) => {
 
     let { language, code, customUrl, expiryDate } = req.body;
 
@@ -14,14 +14,14 @@ router.post("/api/v1/takeCode", async (req, res) => {
     }
 
     language === (undefined || language.length === 0) ? (language = "text") : (language = language);
-    expiryDate === undefined ? (expiryDate = "1h") : (expiryDate = expiryDate);
+    expiryDate === undefined ? (expiryDate = "72h") : (expiryDate = expiryDate);
 
     expiryDate = Date.now() + ms(expiryDate.toString());
     console.log(new Date(expiryDate), expiryDate);
 
     if (customUrl.length <= 4) {
         return res
-        .status(401)
+        .status(400)
         .json({ error: "Custom url must be at least 5 characters long" });
     }
 
@@ -30,7 +30,7 @@ router.post("/api/v1/takeCode", async (req, res) => {
         let url = await Doc.findOne({ customUrl }).exec();
 
         if (url) 
-            return res.status(401).json({ error: "Custom url already exists" });
+            return res.status(400).json({ error: "Custom url already exists" });
         }
 
         else {
@@ -51,7 +51,7 @@ router.post("/api/v1/takeCode", async (req, res) => {
         console.log(err);
     }
 
-    res.status(201).send("Successfully created new document");
+    res.status(200).send("Successfully created new document");
 });
 
 module.exports = router;

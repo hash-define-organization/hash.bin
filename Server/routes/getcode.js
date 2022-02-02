@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const { Mongoose } = require('mongoose');
 const Doc = require('../models/doc');
 
 router.get('/api/v1/:getCode', async(req, res) => {
@@ -17,7 +16,7 @@ router.get('/api/v1/:getCode', async(req, res) => {
     }
 
     catch(err){
-        res.status(501).json({ error: err.message });
+        res.status(500).json({ error: err.message });
     }
 });
 
