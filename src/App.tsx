@@ -12,7 +12,6 @@ import { CustomUrlInput } from "./components/CustomUrlInput";
 import { ExpiryMenu } from "./components/ExpiryMenu";
 import { Footer } from "./components/Footer";
 import { Main } from "./components/Main";
-import { BrowserRouter } from "react-router-dom";
 
 
 function App ()
@@ -21,7 +20,7 @@ function App ()
   const [ customUrlError, setCustomUrlError ] = useState( false );
 
   const [ binData, setBinData ] = useState( "" );
-  const [ language, setLanguage ] = useState( "js" );
+  const [ language, setLanguage ] = useState( "javascript" );
   const [ expiryDate, setExpiryDate ] = useState( "Never" );
 
   const [ saveIcon, setSaveIcon ] = useState( faSave );

@@ -13,7 +13,7 @@ export async function saveBin ( bin: Bin )
       headers: {
         'Content-Type': 'application/json',
         'Accept': '*/*',
-        'Accept-Encoding': 'gzip, deflate, br'
+        'Accept-Encoding': 'gzip, deflate, br',
       },
       data: JSON.stringify( bin ),
 

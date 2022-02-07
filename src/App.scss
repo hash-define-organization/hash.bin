@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600;700&display=swap");
 
-$header-color: #37474f;
-$footer-color: #37474f;
+$header-color: #222634;
+$footer-color: #222634;
 $editor-color: #263238;
 $header-height: 3.5rem;
 $footer-height: 1.5rem;
@@ -49,9 +49,12 @@ $editor-height: calc(100vh - 5rem);
 		font-family: cascadia code;
 		border-bottom: #717273 2px solid;
 		outline: none;
+		transition: 0.1s all ease-in;
 
-		&.active {
+		&.active,
+		&:focus {
 			border-bottom: whitesmoke 2px solid;
+			transition: 0.1s all ease-in;
 		}
 		&.error {
 			border-bottom: rgba(253, 0, 0, 0.96) 2px solid;
@@ -106,7 +109,7 @@ $editor-height: calc(100vh - 5rem);
 		font-size: 1.4rem;
 		text-align: center;
 
-		&:hover{
+		&:hover {
 			display: block;
 		}
 
@@ -171,8 +174,10 @@ $editor-height: calc(100vh - 5rem);
 		background: none;
 		min-height: $editor-height;
 		width: 100%;
-		font-size: 20px;
+		font-size: 5rem;
 		color: white;
 		font-family: "Courier New", Courier, monospace;
+		overflow-block: scroll;
+		overflow: initial !important;
 	}
 }
