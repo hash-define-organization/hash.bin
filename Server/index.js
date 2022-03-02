@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
-const scheduleExpiryJobs = require("./services/expiry");
 
 const saveCode = require("./routes/savecode");
 const getCode = require("./routes/getcode");
@@ -34,5 +33,4 @@ app.get("*", (req, res) => {
 
 app.listen(port, () => {
     console.log(`app listening on port ${port}!`);
-    scheduleExpiryJobs();
 });

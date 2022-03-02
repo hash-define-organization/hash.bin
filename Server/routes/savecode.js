@@ -17,14 +17,14 @@ router.post("/api/v1/saveCode", async (req, res) => {
     expiryDate === undefined ? (expiryDate = "72h") : (expiryDate = expiryDate);
 
     expiryDate = Date.now() + ms(expiryDate.toString());
-    
+
     if(!expiryDate) {
         return res.status(400).json({ error: "No expiry date provided" });
     }
 
     console.log(new Date(expiryDate), expiryDate);
 
-    if (customUrl.length <= 4) {
+    if (customUrl && customUrl.length <= 4) {
         return res
         .status(400)
         .json({ error: "Custom url must be at least 5 characters long" });
@@ -34,24 +34,24 @@ router.post("/api/v1/saveCode", async (req, res) => {
         if (customUrl !== undefined) {
         let url = await Doc.findOne({ customUrl }).exec();
 
-        if (url) 
+        if (url)
             return res.status(400).json({ error: "Custom url already exists" });
         }
 
         else {
           customUrl = await nanoid(5);
         }
-        
+
         const doc = new Doc({
-            language,
-            code,
-            customUrl,
-            expiryDate
+            code: code,
+            language: language,
+            customUrl: customUrl,
+            expireAt: expiryDate
         });
 
         await doc.save();
-    } 
-    
+    }
+
     catch (err) {
         console.log(err);
     }
