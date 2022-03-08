@@ -14,11 +14,13 @@ const doc = new mongoose.Schema({
         required: true,
         unique: true,
     },
-    expiryDate: {
-        type: String,
-        required: true,
+    expireAt: {
+        type: Date,
+        default: null
     }
 });
+
+doc.index({ expireAt: 1 }, { expireAfterSeconds: 0 });
 
 const Doc = mongoose.model("DelDog", doc);
 
