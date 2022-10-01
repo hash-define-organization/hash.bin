@@ -58,18 +58,7 @@ The website is built on MERN stack and you can enter any custom url along with t
   <a><img src="https://qph.fs.quoracdn.net/main-qimg-82b7314fe96c4a2d8f3088207a4afd8d" alt="define" width="500"></a>
   <br>
   <br> -->
-  
-  # :gift: Hacktoberfest 2022
-#### :dart: Let's celebrate [Hacktoberfest](https://hacktoberfest.com/) by getting involved in the open source community and start your journey in open source.
-#### :dart: This repository is open to all the members of the GitHub community. Feel free to contribute to this repository.<br>
 
-
-<p align="center">
-  <!-- <img src="https://i.ibb.co/NxXxwHX/define-logo.jpg" alt="define-logo" border="0"></a> -->
-  
-  # Photu banao logo
-
-</p>
 
 
 <!-- <p align="center">
