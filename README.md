@@ -1,33 +1,4 @@
-<h1 align="center">	&#127875;<b><i>It's October, so is Hacktoberfest</i></b>	&#127875; </h1>
-
-<h1 align="center">
-<img src="https://user-images.githubusercontent.com/72879445/193361781-0828d28c-4f81-4d82-93a3-38f2ce76a453.png" alt="define" width="200">
-
-</h1>
-
-<p align="center">  
- <a href="https://discord.gg/7cXb8c9RTj">
-    <img width="30px" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" />
-  </a>&ensp;
-   
-  <a href="https://www.linkedin.com/company/defineweare/mycompany?trk=people-guest_people_search-card">
-    <img width="30px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" />
-  </a>&ensp;
-  
-  <a href="https://www.instagram.com/hash_define/">
-    <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
-   </a>&ensp;
- 
-  <a href="https://www.youtube.com/channel/UCDqf3_N1l7s0dVAVycN8FQA">
-    <img width="30px" src="https://seeklogo.com/images/Y/youtube-2017-icon-logo-D1FE045118-seeklogo.com.png" />
-   </a>&ensp;
-
-   <a href="mailto:hashdefinebpit@gmail.com">
-    <img width="30px" src="https://seeklogo.com/images/G/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" />
-   </a>&ensp;
-</p>
-
-# :label: hash.bin
+# hash.bin
 
 Sharing short code samples, logs, links or markdown notes is now easier than ever! again.
 
@@ -41,9 +12,25 @@ The website is built on MERN stack and you can enter any custom url along with t
 ![video](https://user-images.githubusercontent.com/78612380/152390291-13ebf757-cc9c-4670-bf65-a32cbd89408c.gif)
 <br />
 
-# :gift: Hacktoberfest 2022
+
+
+
+<!-- <p align="center">
+  <a><img src="https://qph.fs.quoracdn.net/main-qimg-82b7314fe96c4a2d8f3088207a4afd8d" alt="define" width="500"></a>
+  <br>
+  <br> -->
+
+
+
+<!-- <p align="center">
+  <a><img src="https://qph.fs.quoracdn.net/main-qimg-82b7314fe96c4a2d8f3088207a4afd8d" alt="define" width="500"></a>
+  <br>
+  <br> -->
+  
+# 🌟Getting started
+
 #### :dart: Let's celebrate [Hacktoberfest](https://hacktoberfest.com/) by getting involved in the open source community and start your journey in open source.
-#### :dart: This repository is open to all the members of the GitHub community. Feel free to contribute to this repository.<br>
+#### :dart: We at   [Hash Define](https://hashdefinebpit.netlify.app) aim to build a platform that will not only encourage you to find which domain interests you but will also help you to come forward and gain expertise in that.
 
 
 <p align="center">
@@ -52,42 +39,32 @@ The website is built on MERN stack and you can enter any custom url along with t
 ![image](https://user-images.githubusercontent.com/96205648/193408591-1c9cf31d-b6c8-49ba-9ee4-f9bf832cf686.png)
 
 </p>
-
-
-<!-- <p align="center">
-  <a><img src="https://qph.fs.quoracdn.net/main-qimg-82b7314fe96c4a2d8f3088207a4afd8d" alt="define" width="500"></a>
-  <br>
-  <br> -->
-
-
-
-<!-- <p align="center">
-  <a><img src="https://qph.fs.quoracdn.net/main-qimg-82b7314fe96c4a2d8f3088207a4afd8d" alt="define" width="500"></a>
-  <br>
-  <br> -->
-  
-  ## 🌟Getting started
-➡️ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details about the process for submitting pull requests to us.
-
-## 📜 Our Standards
-
-:arrow_forward: Using welcoming language.
-
-:arrow_forward: Being respectful to others viewpoints.
-
-:arrow_forward: Accepting constructive criticism.
-
-:arrow_forward: Heavily focusing on what is best for the community
     
 
-## :label: About Hash Define :trophy:
+## :label: Participation Rules 📝
 
-:point_right: We at  #define aim to build a platform that will not only encourage you to find which domain interests you but will also help you to come forward and gain expertise in that.
+➡️ Pull requests can be made to any public repository on GitHub, look for the "hacktoberfest" topic to know whether the project is participating or not. The pull request must contain commits you made yourself. 
 
-:point_right: #define has also started a New Developer Circle in different colleges and college students in term of coding, development any many more.
+➡️ If a maintainer reports your pull request as 🔴<b> spam </b>, it will not be counted towards your participation in Hacktoberfest.
+
+➡️ If a maintainer reports behavior that’s not in line with the project’s code of conduct, you will be ineligible to participate.
 
 
-<div><strong> Contributors✨ </strong></div>
+##  :label:  Rules Regarding Submission of PR :bookmark:
+➡️ Participant can contribute anything he wishes for.
+
+➡️ Make sure to pull request in the respective folder. 
+
+➡️ Your <b>PR</b> must be valid.
+
+➡️ Don't just copy and paste code from other website/blogs .
+
+➡️ Submitting someone else work will be reported as 🔴spam.
+
+➡️ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details about the process for submitting pull requests to us.
+
+ ## 	:game_die: Shoutout to all the contributors ❤️
+ 
 <br />
 <a href="https://github.com/hash-define-organization/hash.bin/contributors">
   <img src="https://contrib.rocks/image?repo=hash-define-organization/hash.bin" />
