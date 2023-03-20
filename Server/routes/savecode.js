@@ -15,14 +15,13 @@ router.post("/api/v1/saveCode", async (req, res) => {
 
     language === (undefined || language.length === 0) ? (language = "text") : (language = language);
     expiryDate === undefined ? (expiryDate = "72h") : (expiryDate = expiryDate);
+    expiryDate === "Never" ? (expiryDate = "9 years") : (expiryDate = expiryDate);
 
     expiryDate = Date.now() + ms(expiryDate.toString());
     
     if(!expiryDate) {
         return res.status(400).json({ error: "No expiry date provided" });
     }
-
-    console.log(new Date(expiryDate), expiryDate);
 
     if (customUrl.length <= 4) {
         return res

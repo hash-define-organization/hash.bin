@@ -20,7 +20,7 @@ function App ()
   const [ customUrlError, setCustomUrlError ] = useState( false );
 
   const [ binData, setBinData ] = useState( "" );
-  const [ language, setLanguage ] = useState( "js" );
+  const [ language, setLanguage ] = useState( "javascript" );
   const [ expiryDate, setExpiryDate ] = useState( "Never" );
 
   const [ saveIcon, setSaveIcon ] = useState( faSave );
@@ -56,21 +56,16 @@ function App ()
 
     switch ( status )
     {
-      case 201:
+      case 200:
         setSaveIcon( SaveIcons.saveSuccessIcon );
         setSaveState( SaveStates.success );
         window.location.pathname = customUrl;
         break;
 
-
-      case 401:
-      case 404:
+      default:
         setSaveIcon( SaveIcons.saveFailureIcon );
         setSaveState( SaveStates.failure );
         setCustomUrlError( true );
-        break;
-
-      default:
         break;
     }
 
@@ -103,7 +98,6 @@ function App ()
 
     checkBinUrl();
   }, [] );
-
 
   return (
     <div className="App">
@@ -145,7 +139,7 @@ function App ()
         </div>
       </section>
 
-      <Main binData={ binData } language={ language } setBinData={ setBinData} />
+      <Main binData={ binData } language={ language } setBinData={ setBinData } />
 
       <Footer />
 
