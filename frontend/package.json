@@ -17,6 +17,7 @@
     "@types/react-dom": "^17.0.11",
     "@uiw/react-textarea-code-editor": "^1.4.14",
     "axios": "^0.25.0",
+    "caniuse-lite": "^1.0.30001528",
     "node-sass": "^7.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
