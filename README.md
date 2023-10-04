@@ -53,15 +53,15 @@ The website is built on MERN stack and you can enter any custom url along with t
 
 
 ##  :label:  Rules Regarding Submission of PR :bookmark:
-➡️ Participant can contribute anything he wishes for.
+➡️ Participants can freely provide valuable contributions.
 
-➡️ Make sure to pull request in the respective folder. 
+➡️ Ensure that you submit a pull request in the appropriate folder.
 
 ➡️ Your <b>PR</b> must be valid.
 
 ➡️ Refrain from simply copying code from websites or blogs.
 
-➡️ Submitting someone else work will be reported as 🔴 spam.
+➡️ Submitting someone else's work will be reported as 🔴 spam.
 
 ➡️ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details about the process for submitting pull requests to us.
 
