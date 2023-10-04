@@ -43,7 +43,9 @@ The website is built on MERN stack and you can enter any custom url along with t
 
 ## :label: Participation Rules 📝
 
-➡️ Pull requests can be made to any public repository on GitHub, look for the "hacktoberfest" topic to know whether the project is participating or not. The pull request must contain commits you made yourself. 
+➡️ Pull requests can be made to any public repository on GitHub, look for the "hacktoberfest" topic to know whether the project is participating or not.
+
+➡️ The pull request must contain commits you made yourself.
 
 ➡️ If a maintainer reports your pull request as 🔴<b> spam </b>, it will not be counted towards your participation in Hacktoberfest.
 
@@ -57,9 +59,9 @@ The website is built on MERN stack and you can enter any custom url along with t
 
 ➡️ Your <b>PR</b> must be valid.
 
-➡️ Don't just copy and paste code from other website/blogs .
+➡️ Refrain from simply copying code from websites or blogs.
 
-➡️ Submitting someone else work will be reported as 🔴spam.
+➡️ Submitting someone else work will be reported as 🔴 spam.
 
 ➡️ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details about the process for submitting pull requests to us.
 
