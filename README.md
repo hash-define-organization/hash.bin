@@ -36,7 +36,7 @@ The website is built on MERN stack and you can enter any custom url along with t
 <p align="center">
   <!-- <img src="https://i.ibb.co/NxXxwHX/define-logo.jpg" alt="define-logo" border="0"></a> -->
   
-![image](https://user-images.githubusercontent.com/96205648/193408591-1c9cf31d-b6c8-49ba-9ee4-f9bf832cf686.png)
+![git_poster](https://github.com/RyBhrdwj/hash.bin/assets/95015767/7ed3dd41-b767-4402-8b33-a970ba048544)
 
 </p>
     
